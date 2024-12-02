@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Chase's Classroom</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #555;
+            color: #fff;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 1.5rem auto;
+            max-width: 800px;
+            background: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            display: inline-block;
+            background: #007BFF;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mr. Chase's Classroom</h1>
+    </header>
+    <nav>
+        <a href="#announcements">Announcements</a>
+        <a href="#resources">Class Resources</a>
+        <a href="#calendar">Calendar</a>
+        <a href="#contact">Contact Me</a>
+    </nav>
+    <section id="announcements">
+        <h2>Announcements</h2>
+        <p>Stay updated with the latest news and updates about our class!</p>
+        <ul>
+            <li>Parent-Teacher Conferences are scheduled for next Thursday at 4:00 PM.</li>
+            <li>Homework for this week is posted in the Class Resources section.</li>
+            <li>Don't forget the upcoming quiz on Friday!</li>
+        </ul>
+    </section>
+    <section id="resources">
+        <h2>Class Resources</h2>
+        <p>Here are some important resources for our class:</p>
+        <ul>
+            <li><a href="#">Weekly Homework Assignments</a></li>
+            <li><a href="#">Lecture Notes</a></li>
+            <li><a href="#">Study Guides</a></li>
+        </ul>
+    </section>
+    <section id="calendar">
+        <h2>Class Calendar</h2>
+        <p>Upcoming important dates and events:</p>
+        <ul>
+            <li>Quiz: Friday, December 8th</li>
+            <li>Winter Break: December 22nd - January 5th</li>
+            <li>Field Trip: January 15th</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Have questions or concerns? Feel free to reach out!</p>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="4" placeholder="Enter your message here" required></textarea><br><br>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mr. Chase's Classroom | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
